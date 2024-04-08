@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	  <parameter name="deliveryLocation" value="Delhi Airport"/>
+      <parameter name="name" value="Shristy"/>
+      <parameter name="mobile" value="99999 11111"/>
+      <parameter name="email" value="shr@gmail.com"/>
+      <parameter name="voucherCode" value="12345"/>
+    <classes>
+      <class name="com.simplilearn.Pizza_Hut.PizzaHutTests"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
